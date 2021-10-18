@@ -13,7 +13,6 @@ import pyttsx3
 import wikipedia
 import webbrowser
 import nltk
-nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 from tensorflow.python.framework import ops
