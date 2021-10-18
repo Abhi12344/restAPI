@@ -7,11 +7,7 @@ from django.http import JsonResponse
 from django.core import serializers
 from django.conf import settings
 import json
-
 import pyttsx3
-#import wolframalpha
-import wikipedia
-import webbrowser
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
@@ -21,11 +17,7 @@ import tflearn
 import tensorflow
 import random
 import pickle
-import pyodbc
 import urllib.request, urllib.error, urllib.parse
-from IPython.display import Javascript
-from IPython.display import display
-from newspaper import Article
 import random
 import string
 import urllib.request, urllib.error, urllib.parse
